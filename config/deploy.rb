@@ -3,7 +3,7 @@ set :application, 'zmhaierle'
 set :deploy_user, 'deploy'
 
 # setup repo details
-#set :scm, :git
+set :scm, :git
 set :repo_url, 'git@github.com:TCnet/zmhaierle.git'
 
 # setup rbenv.
